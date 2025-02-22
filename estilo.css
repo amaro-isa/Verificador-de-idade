@@ -1,0 +1,33 @@
+body { /*corpo(pagina em geral)*/
+    background: #45a0f5; /*cor do fundo*/
+    font: normal 15pt Arial;
+
+}
+
+header { /*cabeçallho*?
+   color: white; /*cor do texto*/
+   text-align: center; /*alinhamento do texto*/
+}
+
+section { /*conteudo(div)*/ 
+    background: linear-gradient(to right, rgb(160, 160, 160), white, rgb(192, 192, 192)); /* cor do fundo* da caixa*/
+    border-radius: 10px; /* arredondamento da borda*/
+    padding: 10px; /* (pé direito)altura da caixa*/
+    width: 500px; /*largura da caixa*/
+    margin: auto; /*centralizou a caixa*/
+    box-shadow: 5px /*dislocamento lateral*/ 5px /*dislocamento vertical*/ 10px /*espalhamento*/ rgba(0, 0, 0, 0.61); /*sombreamento*/
+
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+footer{ /*copyhight*/
+    color: black; /*cor texto*/
+    text-shadow: 3px 3px white;
+    text-align: center; /*alinhamento do texto*/
+    font-style: italic; /*texto pouco deitado*/
+
+}
